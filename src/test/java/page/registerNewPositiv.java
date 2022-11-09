@@ -14,7 +14,7 @@ public class registerNewPositiv extends pageparameters{
 	By errornote = By.id ("username.errors");
 	By buttonSignIn = By.cssSelector("#userForm > button");
 	By check2 = By.cssSelector("body > nav > div > ul.nav.navbar-nav.navbar-right > a");
-	String name = "Robert3";
+	String name = "Robert44";
 	//konstruktorius
 		public  registerNewPositiv (WebDriver driver) {
 			this.driver=driver;

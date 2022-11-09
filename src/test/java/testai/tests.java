@@ -41,15 +41,6 @@ public class tests extends testParamet {
 	}
 	
 	@Test
-	public void loginPage() {
-		login l = new login(driver);
-		
-		l.EnterCredentials();
-		l.ClickButton();
-		l.isOK();
-		
-	}
-	@Test
 	public void loginPageNeg() throws Exception {
 		loginNegativ ln = new loginNegativ(driver);
 		Thread.sleep(3000);
@@ -58,6 +49,17 @@ public class tests extends testParamet {
 	
 		
 	}
+	
+	@Test
+	public void loginPage() {
+		login l = new login(driver);
+		
+		l.EnterCredentials();
+		l.ClickButton();
+		l.isOK();
+		
+	}
+	
 	
 	@Test
 	public void loginPageOut() {

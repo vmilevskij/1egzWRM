@@ -16,7 +16,7 @@ public class login extends pageparameters {
 	}
 	
 	public void EnterCredentials() {
-		driver.findElement(loginName).sendKeys("Robert");
+		driver.findElement(loginName).sendKeys("Robert44");
 		driver.findElement(loginPsw).sendKeys("12345");
 	}
 	
@@ -27,6 +27,6 @@ public class login extends pageparameters {
 	
 	public void isOK() {
 		String note = driver.findElement(loginConf).getText();
-		Assert.assertEquals("Logout, Robert", note);
+		Assert.assertEquals("Logout, Robert44", note);
 	}
 }

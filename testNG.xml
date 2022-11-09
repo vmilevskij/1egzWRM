@@ -13,8 +13,9 @@
 		<classes>
 			<class name="testai.tests">
 				<methods>
-					<include name="regNegative"/>
 					<include name="loginPageNeg"/>
+					<include name="regNegative"/>
+					
 					
 				</methods>
 			</class>
